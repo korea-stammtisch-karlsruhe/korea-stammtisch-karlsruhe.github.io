@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Home
+layout: text
+title: Korea-Stammtisch Karlsruhe
 ---
 
 ### Nächstes Treffen
