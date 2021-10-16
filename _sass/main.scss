@@ -1,0 +1,77 @@
+$link-color: #2A403D;
+$link-color-hover: #748B6F;
+$background-color: #F4F2F3;
+
+* {
+    border: 0;
+    box-sizing: border-box;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+body {
+    background-color: $background-color;
+    margin: 25px auto;
+    width: 70%;
+}
+header, nav, main, footer, h1, p {
+    width: 600px;
+    margin: 0 auto;
+}
+nav {
+    margin-bottom: 10px;
+    border-bottom: solid 1px $background-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header
+{
+    margin-top: 15px;
+    & > h1 {
+        text-align: center;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: $link-color;
+    &:hover {
+        color: $link-color-hover;
+    }   
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+
+footer {
+    border-top: 1px solid $link-color;
+    font-size: .6em;
+    text-align: right;
+}
+
+div.nextmeetup > a:first-child {
+    color: #111;
+}
+
+div.infohead {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: $link-color;
+    margin-bottom: 10px;
+    & > span {
+        white-space:nowrap;
+    }
+}
+

@@ -1,7 +1,9 @@
 <nav>
+    <ul>
     {% for item in site.data.navigation %}
-        <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
-            {{ item.name }}
+        <a href="{{ item.link }}" >
+            <ruby>{{ item.name }}<rt>{{ item.korean }}</rt></ruby>
         </a>
     {% endfor %}
+    </ul>
 </nav>
