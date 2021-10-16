@@ -47,16 +47,14 @@ a {
     }   
 }
 
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-
 footer {
     border-top: 1px solid $link-color;
     font-size: .6em;
     text-align: right;
+    & p {
+        font-size: 1.5em;
+        color: #333;
+    }   
 }
 
 div.nextmeetup > a:first-child {
