@@ -1,6 +1,7 @@
 $link-color: #2A403D;
 $link-color-hover: #748B6F;
 $background-color: #F4F2F3;
+$button-color: #490b3d;
 
 * {
     border: 0;
@@ -46,7 +47,14 @@ a {
         text-decoration: underline;
     }   
 }
-
+a[href^="https://nuudel.digitalcourage.de/"] {
+    background: $button-color;
+    border-radius: 5px;
+    padding: 4px 8px;
+    font-weight: 500;
+    color: $background-color;
+    text-align: center;
+}
 ul {
     padding-left: 1em;
 }
