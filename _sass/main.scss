@@ -12,10 +12,8 @@ $background-color: #F4F2F3;
 }
 body {
     background-color: $background-color;
-    margin: 25px auto;
-    width: 70%;
 }
-header, nav, body, footer, h1, p {
+header, nav, main, footer, h1, p {
     width: 600px;
     margin: 0 auto;
 }

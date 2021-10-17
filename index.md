@@ -1,5 +1,5 @@
 ---
-layout: text
+layout: default
 title: Korea-Stammtisch Karlsruhe
 ---
 
