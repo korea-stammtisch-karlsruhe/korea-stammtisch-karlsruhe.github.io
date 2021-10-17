@@ -13,9 +13,10 @@ $background-color: #F4F2F3;
 body {
     background-color: $background-color;
 }
-header, nav, main, footer, h1, p {
+header, nav, main, footer, {
     width: 600px;
     margin: 0 auto;
+    max-width: 100%;
 }
 nav {
     margin-bottom: 10px;
@@ -51,6 +52,7 @@ ul {
 
 h1 {
     font-size: 2em;
+    text-align: center;
     color: $link-color;
     &:hover {
         color: $link-color-hover;
