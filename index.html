@@ -7,5 +7,10 @@ title: Korea-Stammtisch Karlsruhe
 
 {% for post in site.posts limit: 1 %}
 <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
+<div class="infohead">
+    <span>{{ post.date | date:"%Y-%m-%d" }}</span>
+    <span>{{ post.time }}</span>
+    <span>{{ post.place }}</span>
+</div>
 {{ post.content | markdownify }}
 {% endfor %}

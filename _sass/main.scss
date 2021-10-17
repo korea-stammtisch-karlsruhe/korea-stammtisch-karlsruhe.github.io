@@ -51,14 +51,15 @@ ul {
 }
 
 h1 {
-    font-size: 2em;
     text-align: center;
     color: $link-color;
-    &:hover {
-        color: $link-color-hover;
+}
+dt {
+    font-weight: bold;
+    &::before {
+        content: "- "
     }
 }
-
 footer {
     border-top: 1px solid $link-color;
     font-size: .6em;
