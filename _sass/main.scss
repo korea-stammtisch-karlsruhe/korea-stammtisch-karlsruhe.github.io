@@ -59,13 +59,17 @@ h2 {
     text-align: center;
     color: $link-color;
 }
-
-dt {
-    font-weight: bold;
+h3,{
+    color: $link-color;
     &::before {
-        content: "- "
+        content: "•"
     }
 }
+
+p {
+    color: $link-color;
+}
+
 footer {
     border-top: 1px solid $link-color;
     font-size: .6em;
