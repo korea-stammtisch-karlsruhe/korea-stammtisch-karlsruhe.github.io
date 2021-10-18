@@ -1,24 +1,12 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-	<!-- link to main stylesheet -->
-	<link rel="stylesheet" href="/assets/css/styles.css">
-        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
-        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    </head>
-    
+    {% include head.html %}
     <body>
-    <header>
-        <h1><a href="/"><ruby>한국 모임 카를스루에<rt>K o r e a - S t a m m t i s c h &nbsp; K a r l s r u h e</rt></ruby></a></h1>                
-        <img src="/assets/images/header.jpg">
-    </header>
-                    
-    <main>
-        {% include navigation.html %}
-	{{ content }}
-    </main>
-    {% include footer.html %}			
+        {% include header.html %}
+        <main>
+            {% include navigation.html %}
+	    {{ content }}
+        </main>
+        {% include footer.html %}			
     </body>
 </html>
