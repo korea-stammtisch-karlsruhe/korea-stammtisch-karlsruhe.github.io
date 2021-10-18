@@ -54,6 +54,8 @@ a[href^="https://nuudel.digitalcourage.de/"] {
     font-weight: 500;
     color: $background-color;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 ul {
     padding-left: 1em;
