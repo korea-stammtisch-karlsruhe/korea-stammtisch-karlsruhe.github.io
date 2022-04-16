@@ -12,5 +12,5 @@ title: Korea-Stammtisch Karlsruhe
     <span><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.time }}</span>
     <span><i class="fa fa-map-marker" aria-hidden="true"></i> {{ post.place }}</span>
 </div>
-{{ content | markdownify }}
+{{ post.content | markdownify }}
 {% endfor %}
